@@ -1,12 +1,12 @@
 {
   "name": "collabslides-cloud-server",
   "version": "3.0.0",
-  "description": "CollabSlides Cloud - 12 users per room, real WSS, persistent rooms",
+  "description": "CollabSlides Cloud - 12 users per room, real ws, persistent rooms",
   "type": "module",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "dependencies": {
     "ws": "^8.18.0",
